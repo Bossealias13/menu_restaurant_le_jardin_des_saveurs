@@ -1,0 +1,30 @@
+/* margin et marggin par defaut annuler */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* couleur de fond */
+.body {
+    background-color: #86bd5f;
+}
+/* styles header */
+.header {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+}
+.nav_bar a {
+    text-decoration: none;
+    color :#ffffff;
+}
